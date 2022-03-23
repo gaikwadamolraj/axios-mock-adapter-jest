@@ -1,6 +1,10 @@
 # axios-mock-adapter-jest
 This will showcase the mocking the axios async await call for unit testing.
 
+## Project Status
+
+[![Jest - Unit test](https://github.com/gaikwadamolraj/axios-mock-adapter-jest/actions/workflows/Integration.yml/badge.svg)](https://github.com/gaikwadamolraj/axios-mock-adapter-jest/actions/workflows/Integration.yml)
+
 ## Local setup and run
    - ### To run this app, you'll need below node version
      ```sh
