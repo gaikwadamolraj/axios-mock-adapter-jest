@@ -1,5 +1,9 @@
 # axios-mock-adapter-jest
-This will showcase the mocking the axios async await call for unit testing.
+This will showcase below example with jest tests.
+
+- Mocking the axios async await call for unit testing.
+- Encode/Decode using Node buffer
+- Bubble/Merge sort with own function for date sort
 
 ## Project Status
 
@@ -23,6 +27,6 @@ This will showcase the mocking the axios async await call for unit testing.
 ## Author
  Amol Gaikwad
 
- [LinkedIn](https://www.linkedin.com/in/gaikwadamolraj/)
-
- [Email](mailto:gaikwadamolraj@gmail.com)
+ [<img src="https://img.icons8.com/fluency/48/000000/linkedin.png"/>](https://www.linkedin.com/in/gaikwadamolraj/)
+ 
+ [<img src="https://img.icons8.com/external-xnimrodx-lineal-gradient-xnimrodx/64/000000/external-email-customer-service-xnimrodx-lineal-gradient-xnimrodx-2.png"/>](mailto:gaikwadamolraj@gmail.com)

@@ -1,23 +1,7 @@
-// import axios from 'axios';
-
-// import { GetEmployees } from './';
-
-// jest.mock('axios');
-
-// describe('GetEmployees', () => {
-//   it('fetches Employees successfully data from an API', async () => {
-//     const data = [{id: 1, name: 'Amol'}, {id: 2, name: 'Shaurya'}, {id: 3, name: 'Snehal'}];
-
-//     axios.get.mockImplementationOnce(() => Promise.resolve(data));
-
-//     await expect(GetEmployees(1)).resolves.toEqual(data);
-//   });
-// });
-
 import axios from "axios";
 import MockAdapter from "axios-mock-adapter";
 
-import { BASE_URL, fetchUsers } from "./";
+import { BASE_URL, fetchUsers } from "./axios";
 
 describe("fetchUsers", () => {
   let mock;
