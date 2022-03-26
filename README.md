@@ -91,11 +91,11 @@ This will showcase below example with jest tests.
           isMap(actorMap); // => true
         ```
   ### Q4. Describe at least one way to substitute a local, unpublished version of a JavaScript library in place of a another version that is already published in an NPM registry.
-    - To use the local unpublished local package version in node then you need to do npm link <package-dir-path> that will create the symlink to package.
+  - To use the local unpublished local package version in node then you need to do npm link <package-dir-path> that will create the symlink to package.
       ```sh
         npm link <your-local-pkg-dir-path>
       ```
-    - To unlink the same follow unlink command
+  - To unlink the same follow unlink command
       ```sh
         npm unlink <your-local-pkg-dir-path>
       ```
