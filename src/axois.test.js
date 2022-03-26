@@ -18,8 +18,9 @@ describe("fetchUsers", () => {
     it("should return users list", async () => {
       // given
       const users = [
-        { id: 1, name: "John" },
-        { id: 2, name: "Andrew" },
+        { id: 1, name: "Amol" },
+        { id: 2, name: "Snehal" },
+        { id: 3, name: "Snehal" }
       ];
       mock.onGet(`${BASE_URL}/users`).reply(200, users);
 
