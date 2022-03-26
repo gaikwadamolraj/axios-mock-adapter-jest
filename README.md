@@ -9,6 +9,16 @@ This will showcase below example with jest tests.
 
 [![Jest - Unit test](https://github.com/gaikwadamolraj/axios-mock-adapter-jest/actions/workflows/Integration.yml/badge.svg)](https://github.com/gaikwadamolraj/axios-mock-adapter-jest/actions/workflows/Integration.yml)
 
+## How to use unpublished local npm package in your app
+ - To use the local unpublished local package version in node then you need to do npm lik <package-dir-path> that will create the symlink to package.
+    ```sh
+      npm link <your-local-pkg-dir-path>
+    ```
+ - To unlink the same follow unlink command
+    ```sh
+      npm unlink <your-local-pkg-dir-path>
+    ```
+
 ## Local setup and run
    - ### To run this app, you'll need below node version
      ```sh
